@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rock Paper Scissors Game</title>
+    
+</head>
+
+<body>
+
+    <div class="main-container">
+        <h1 class="header-title">Rock Paper Scissors</h1>
+
+        <div class="score">
+            <h1 class="header-score">Score</h1>
+            <div class="user-and-computer">
+                <p class="user">User:</p>
+                <span id="user-score">0</span>
+                <p class="computer">Comp:</p>
+                <span id="computer-score">0</span>
+            </div>
+            <h2 class="header-secondary">Play to:
+                <span id="winning-score">10</span>
+            </h2>
+            <input type="text" placeholder="Choose your score" class="input">
+            <button id="reset-btn">Reset</button>
+        </div>
+
+        <h1 class="result">Rock beats paper. You win!</h1>
+
+        <div class="game-container">
+            <div id="rock">
+                <img src="./img/fist.svg" alt="" class="img">
+            </div>
+            <div id="paper">
+                <img src="./img/hold.svg" alt="" class="img">
+            </div>
+            <div id="scissors">
+                <img src="./img/victory.svg" alt="" class="img">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
